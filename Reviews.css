@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #9e9e9e;
+    margin: 10px;
+    height: 1000px;
+  }
+  
+  /* Header styles */
+  div#fixedheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #CCC;
+    background: yellow;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    z-index: 30;
+    border-bottom: 1px solid #000;
+    height: 220px;
+  }
+  
+  /* Gradient background */
+  .background-accent {
+    width: 940px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #e2f442, white, #e2f442);
+    background-color: #c4c4c4;
+    border-top: 40px solid #1c3744;
+    border-right: 500px solid white;
+    border-bottom: 40px solid white;
+    border-left: 500px solid white;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0 solid black;
+    background: linear-gradient(to right, gray, white, gray);
+    height: 800px;
+  }
+  
+  /* Content styles */
+  .content {
+    width: 500px;
+    text-align: left;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Reem Kufi;
+    color: black;
+  }
+  
+  h2 {
+    padding: 12px 400px 1px 100px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Fredoka One, cursive;
+  }
+  
+  /* Image styles */
+  .image-settings {
+    text-align: right;
+    border: solid gray;
+    border-radius: 50%;
+    width: 250px;
+    margin-top: -300px;
+    margin-right: 150px;
+  }
+  
+  .image-settings2 {
+    border: solid gray;
+    border-radius: 50%;
+    width: 160px;
+    margin-top: 5%;
+    margin-right: 24%;
+  }
+  
+  /* Heading styles */
+  h3 {
+    padding: 20px 200px 10px 200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Fredoka One;
+    color: black;
+  }
+  
+  h5 {
+    padding: 20px 40px 10px 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Fredoka One;
+    color: black;
+  }
+  
+  /* Additional Heading styles */
+  h11 {
+    font-family: Fredoka One;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #248716;
+    color: white;
+    border: 1px solid #1c3744;
+    border-radius: 25px;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default:active {
+    background-color: #565656;
+    color: white;
+    border-color: #565656;
+  }
+  
+  /* ... (rest of the CSS code) ... */
+  
